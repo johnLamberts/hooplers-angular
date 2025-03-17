@@ -31,8 +31,17 @@
                 "input": "public"
               }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/@hooplers/styles"
+              ]
+            },
             "styles": [
-              "src/styles.scss"
+                "src/@hoopler/styles/tailwind.scss",
+                "src/@hoopler/styles/themes.scss",
+                "src/@hoopler/styles/main.scss",
+                "src/styles/styles.scss",
+                "src/styles/tailwind.scss"
             ],
             "scripts": []
           },

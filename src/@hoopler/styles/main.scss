@@ -1,0 +1,10 @@
+// Core
+@use 'core/tailwind-config.scss';
+
+// Components
+@use 'components/example-viewer.scss';
+@use 'components/input.scss';
+
+// Overrides
+@use 'overrides/angular-material.scss';
+@use 'overrides/perfect-scrollbar.scss';

@@ -4,7 +4,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "baseUrl": "./src",
+    "paths": {
+        "@hooplers/*": ["src/@hooplers/*"]
+    }
   },
   "files": [
     "src/main.ts"
